@@ -20,7 +20,7 @@ public class Book {
     @Column(name = "description", columnDefinition = "text")
     private String description;
     @Column(name = "price")
-    private int price;
+    private long price;
     @Column(name = "author")
     private String author;
 }
